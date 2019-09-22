@@ -57,9 +57,17 @@ yum install apcupsd
 
 ## 演示
 
-![demo2](demo/demo2.png)
+![demo2](demo/demo2.png)charge為電量，以百分比表示
+
+status為狀態，1為目前未斷電，0為已斷電，由ups供電
+
+timeleft為ups剩餘使用時間
 
 
 
-apcaccess也可以傳其他參數，請看[官方說明文件](http://www.apcupsd.org/manual/)，這樣的做法可以把很多東西傳到datadog，我也有做傳cpu溫度資料的[datadog-sensors](https://github.com/allmwh/datadog-sensors)，ups資料也有[datadog-nvidiasmi](https://github.com/allmwh/datadog-nvidiasmi)
+apcaccess也可以傳其他參數，請看[官方說明文件](http://www.apcupsd.org/manual/)
+
+
+
+這樣的做法可以把很多東西傳到datadog，我也有做傳cpu溫度資料的[datadog-sensors](https://github.com/allmwh/datadog-sensors)，ups資料也有[datadog-nvidiasmi](https://github.com/allmwh/datadog-nvidiasmi)
 
