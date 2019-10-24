@@ -31,8 +31,8 @@ yum install apcupsd
 * 複製下列兩個檔案到datadog-agent目錄中
 
   ```
-  cp ups.yaml /etc/dd-agent/conf.d/
-  cp ups.py /etc/dd-agent/checks.d/
+  cp ups.yaml /etc/datadog-agent/conf.d/
+  cp ups.py /etc/datadog-agent/checks.d/
   ```
 
 * 更改兩個檔案的所有者為dd-agent
